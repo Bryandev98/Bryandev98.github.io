@@ -1,12 +1,30 @@
+
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+
 }
 
-body{
-    text-align: center;
-}
 
-h1{
-    line-height: 100vh;  /** view hight **/
-}
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* portada */
+  
+  .portada{
+    background-image: url("../css/img/143154d87da06501.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  /* Mis paginas */
+  
+  #trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
